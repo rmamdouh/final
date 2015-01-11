@@ -1,5 +1,5 @@
 Feature: display list of good filtered by check box
-
+ 
   As a concerned buyer
   So that I can quickly browse sales appropriate for me
   I want to see slaes matching only certain cities
