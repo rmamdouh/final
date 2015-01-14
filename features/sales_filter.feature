@@ -21,4 +21,4 @@ Scenario: filter sales by city
   Then I should see "Cairo"
   Then I should see "Alex"
   Then I should not see "Mansoura"
-  Then I should not see "Mansoura"
+  Then I should not see "Aswan"

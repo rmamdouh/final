@@ -3,8 +3,8 @@
 
 <%= form_tag sales_path, :id => "cities_form", :method => :get do %>
   <%= @all_cities.each do |city| %>
-    <% label_tag "#{city}" %>
-    <%= check_box_tag "cities[#{city}]", 1, @checked.include?("#{city}") %>
+    <%= label_tag "#{city}" %>
+    <%= check_box_tag "cities[#{city}]", 1, @checked.include?("#{city}"), :id => "cities_#{city}" %>
   <% end %>
   <%= submit_tag 'Filter', :id => "cities_submit" %>
 <% end %>

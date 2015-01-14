@@ -6,7 +6,7 @@ Feature: display list of good filtered by check box
 
 Background: sales in database
 
-  Given the following movies exist:
+  Given the following sales exist:
   | good         | price  | city         |   date       |
   | good1        | 11     | Cairo        |   1977-05-25 |
   | good1        | 22     | Alex         |   1988-05-25 |
